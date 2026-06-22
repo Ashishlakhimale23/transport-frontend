@@ -32,8 +32,8 @@ const SignIn = () => {
 const handleSubmit = async (userType: 'contractor' | 'driver' | 'admin') => {
   try {
     const url = isLogin
-      ? 'https://transport-backend-1-v7yp.onrender.com/login'
-      : 'https://transport-backend-1-v7yp.onrender.com/register';
+      ? 'https://transport-backend-1-v7yp.onrender.com/api/auth/login'
+      : 'https://transport-backend-1-v7yp.onrender.com/api/auth/register';
 
     let payload
     if (userType == "admin") {
