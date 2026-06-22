@@ -248,7 +248,7 @@ const Profile = () => {
                                 Contract #{bid.contractId}
                               </h3>
                               <Badge className={statusColors[bid.status]}>
-                                {bid.status ? "Approved" : "Declined"}
+                                {bid.status}
                               </Badge>
                             </div>
                             {bid.contract && (
