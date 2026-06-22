@@ -7,6 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Checkbox } from "@/components/ui/checkbox";
 import { Calendar, MapPin, Package, Truck, Shield, Clock } from "lucide-react";
 import { useState } from "react";
+import { toast } from "sonner";
 import Navbar from "@/components/Navbar";
 import { api } from "@/lib/axioapi";
 
@@ -45,8 +46,8 @@ const handleSubmit = async (e: React.FormEvent) => {
     const response = await api.post('/api/contracts', payload);
 
     console.log('Contract posted successfully:', response.data);
-    alert('Contract posted successfully!');
-    
+    toast.success('Contract posted successfully!');
+
     // Reset form
     setFormData({
       productType: "",
@@ -62,7 +63,7 @@ const handleSubmit = async (e: React.FormEvent) => {
     });
   } catch (error) {
     console.error('Error posting contract:', error);
-    alert('Failed to post contract. Please try again.');
+    toast.error('Failed to post contract. Please try again.');
   }
 };
 
