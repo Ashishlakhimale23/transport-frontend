@@ -56,15 +56,15 @@ const Index = () => {
                 <div className="space-y-3 text-primary-foreground/80">
                   <div className="flex items-center gap-2">
                     <Mail className="w-4 h-4" />
-                    <span>hello@transporthub.com</span>
+                    <span>bulkway.services.support@gmail.com</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Phone className="w-4 h-4" />
-                    <span>+1 (555) 123-4567</span>
+                    <span>9168788946</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <MapPin className="w-4 h-4" />
-                    <span>San Francisco, CA</span>
+                    <span>India</span>
                   </div>
                 </div>
               </div>
