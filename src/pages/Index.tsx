@@ -25,7 +25,7 @@ const Index = () => {
           <div className="container mx-auto px-6">
             <div className="grid md:grid-cols-4 gap-8">
               <div>
-                <h3 className="text-lg font-semibold mb-4">TransportHub</h3>
+                <h3 className="text-lg font-semibold mb-4">BulkWay</h3>
                 <p className="text-primary-foreground/80 leading-relaxed">
                   Connecting companies with trusted transporters for secure and efficient logistics.
                 </p>
@@ -71,7 +71,7 @@ const Index = () => {
             </div>
             
             <div className="border-t border-primary-foreground/20 mt-12 pt-8 text-center text-primary-foreground/60">
-              <p>&copy; 2024 TransportHub. All rights reserved.</p>
+              <p>&copy; 2026 BulkWay. All rights reserved.</p>
             </div>
           </div>
         </footer>
