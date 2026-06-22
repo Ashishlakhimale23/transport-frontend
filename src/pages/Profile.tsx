@@ -106,7 +106,6 @@ const Profile = () => {
         setUserRating(ratingsRes.data.averageRating);
       } catch (error) {
         console.error("Failed to fetch profile", error);
-        navigate("/login"); // redirect if unauthorized
       } finally {
         setLoading(false);
       }
