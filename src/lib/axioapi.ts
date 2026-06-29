@@ -1,7 +1,7 @@
  import axios, { AxiosError, AxiosRequestConfig } from "axios";
 
 export const api = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: "https://transport-backend-1-v7yp.onrender.com",
 });
 
 api.interceptors.request.use(
