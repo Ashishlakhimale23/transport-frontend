@@ -102,7 +102,7 @@ const Profile = () => {
         setAssignedContracts(assignedRes.data);
 
         // Fetch user ratings
-        const ratingsRes = await api.get("/api/users/ratings");
+        const ratingsRes = await api.get("/api/users/user/ratings");
         setUserRating(ratingsRes.data.averageRating);
       } catch (error) {
         console.error("Failed to fetch profile", error);
