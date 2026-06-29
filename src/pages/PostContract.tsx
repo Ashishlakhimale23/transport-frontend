@@ -39,7 +39,7 @@ const handleSubmit = async (e: React.FormEvent) => {
       approxKms: parseInt(formData.estimatedKms),
       typeOfVehicle: mapVehicleType(formData.vehicleType),
       insured: formData.insuranceRequired,
-      type: formData.productType === 'AUTOMOBILE' ? 'AUTOMOBILE' : 'HANDLE_WITH_CARE',
+      type: formData.productType ,
       description : formData.specialInstructions,
     };
 
